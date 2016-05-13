@@ -1,0 +1,22 @@
+gender_laws = {
+	yuri_succession = {
+		male_dynasty_opinion = -10
+		female_dynasty_opinion = 10
+		
+		potential = {
+			#always = no # For modders only
+			religion = lesbian
+			culture = yuri
+		}
+		allow = {
+			always=yes
+		}
+		effect = {
+			gender_succ = enatic
+		}
+		revoke_allowed = {
+			always = no
+		}			
+	}
+	
+}
