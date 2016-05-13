@@ -1,0 +1,100 @@
+homosexual = {
+	ai_peaceful = yes
+	crusade_cb = crusade
+	graphical_culture = westerngfx
+	has_coa_on_barony_only = yes
+	playable = yes
+	
+	lesbian = {
+		# Holy sites:
+		#	- Artemision or the Temple of Artemis, located in the county of Ephesos, in the duchy of Samos, in the kingdom of Greece
+		#	- Lesbos, located in the county of Lesbos, in the duchy of Aegean Islands, in the kingdom of Greece
+		#	- Alexandria
+		#	- Athene
+		#	- ...?
+		# AI behaviour
+		# agression = 1 # not sure what this does
+		ai_convert_same_group = 0
+		ai_convert_other_group = 1
+		
+		# Appearance
+		color = ( 1 0.68 0.73 }
+		graphical_culture = westerngfx
+		icon = 1
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+		
+		# Crusades
+		crusade_name = "SEXUAL_LIBERATION"
+		
+		# Gods
+		# evil_god_names = { }
+		god_names = { GOD_ARTEMIS GOD_MADOKA GOD_SAPPHO }
+		high_god_name = GOD_THE_GODDESS_OF_YURI
+		scripture_name = THE_BOOK_OF_LESBIANS
+		
+		# Names
+		piety_name = PIETY
+		priest_title = YURI_PRIESTESS
+		
+		# Religious head behaviour
+		can_call_crusade = yes
+		can_excommunicate = no
+		can_grant_claim = no
+		can_grant_divorce = yes
+		# can_grant_invasion_cb = invasion
+		
+		# Religion behaviour
+		autocephaly = no
+		can_have_antipopes = no
+		can_hold_temples = yes
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		investiture = yes
+		priests_can_marry = yes
+		priests_can_inherit = no
+		uses_decadence = no
+		uses_jizya_tax = no
+		
+		# Opinion behaviour
+		dislike_tribal_organization = no
+		feminist = yes
+		pacifist = yes
+		short_reign_opinion_year_mult = 1
+		
+		# Marriage behaviour
+		bs_marriage = yes
+		cousin_marriage = yes
+		divine_blood = no
+		pc_marriage = yes
+		psc_marriage = yes
+		matrilineal_marriages = yes
+		max_consorts = 3
+		max_wives = 1
+		
+		# Invasion and looting
+		allow_looting = no
+		allow_rivermovement = no
+		allow_viking_invasion = no
+		seafarer = no
+		
+		# Inheritance
+		has_heir_designation = yes
+		
+		# Combat
+		attacking_same_religion_piety_loss = yes
+		# defensive_attrition = yes # not sure what this does
+		# ignores_defensive_attrition = yes # not sure what this does
+		peace_prestige_loss = no
+		peace_piety_gain = 1.0
+		raised_vassal_opinion_loss = no
+		
+		# Modifiers
+		character_modifier = {
+			same_religion_opinion = 10
+		}
+		
+		# Game mechanics
+		allow_in_ruler_designer = yes
+	}
+}
