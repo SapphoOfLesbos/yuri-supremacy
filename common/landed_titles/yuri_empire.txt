@@ -1,0 +1,42 @@
+e_yuri = {
+	color = { 255 174 185 }
+	capital = 487 # Lesbos
+	allow = {
+		culture = yuri
+		religion = lesbian
+		num_of_holy_sites = 2
+		piety = 500
+	}
+		
+	culture = yuri
+	religion = lesbian
+	
+	title_female = "YURI"
+	
+	short_name = yes
+	
+	controls_religion = lesbian
+	
+	creation_requires_capital = no
+	
+	dynasty_title_names = no
+	
+	purple_born_heirs = yes
+	
+	dignity = 20
+	
+	duchy_revocakation = yes
+	
+	c_lesbos = {
+		holy_site = lesbian
+	}
+	c_ephesos = {
+		holy_site = lesbian
+	}
+	c_alexandria = {
+		holy_site = lesbian
+	}
+	c_atheniai = {
+		holy_site = lesbian
+	}
+}
